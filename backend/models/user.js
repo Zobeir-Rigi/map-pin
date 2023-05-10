@@ -22,7 +22,7 @@ const UserSchema = new mongoose.Schema(
       min: 6,
     },
   },
-  { timestamps: true } //add aoyomaticly create and update
+  { timestamps: true } //add automaticly create and update
 );
 
 module.exports = mongoose.model("User", UserSchema);
