@@ -5,7 +5,7 @@ app.use(express.json()) // to use somethins as a post method we have to parse th
 const pinRoute = require("./routes/pins")//to use it use middleware app.use
 const userRoute = require("./routes/users")//to use it use middleware app.use
 
-/*connecting database */
+
 const dotenv = require("dotenv");
 
 dotenv.config();
